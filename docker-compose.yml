@@ -3,9 +3,9 @@ services:
     image: postgres:latest
     restart: always
     environment:
-      POSTGRES_DB: netology_import_phones         # имя базы данных (замени на своё)
-      POSTGRES_USER: postgres     # имя пользователя (замени на своё)
-      POSTGRES_PASSWORD: postgres # пароль (замени на свой)
+      POSTGRES_DB: netology_import_phones
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
     ports:
       - "5432:5432"
     volumes:
